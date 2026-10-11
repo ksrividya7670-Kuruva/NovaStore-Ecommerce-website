@@ -1,0 +1,11 @@
+{
+  "name": "fullstack-ecommerce-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-Stack E-Commerce Web Application with Product Management and Order Tracking",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix client install && npm --prefix server run prisma:push && npm --prefix server run seed",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  }
+}
